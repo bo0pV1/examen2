@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Auto:Vehiculo
+    public class Moto:Vehiculo
     {
-        public int CantidadDePuertas { get; set; }
-        public string combustible { get; set; }
-        public int tarifa = 1000;
+        public string cilindrada { get; set; }
+        public string tipo { get; set; }
+        public int tarifa = 600;
+
         public override int Precio()
         {
             return tarifa;
-            
         }
 
     }

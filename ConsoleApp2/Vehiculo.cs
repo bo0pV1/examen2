@@ -11,7 +11,7 @@ namespace ConsoleApp2
        public int id { get; set; }
         public string dueño {get; set;}
 
-        public abstract void Precio(int Tarifa);
+        public abstract int Precio();
         
     }
 }
