@@ -4,7 +4,8 @@ Estacionamiento estacionamiento = new Estacionamiento();
 int sel = 1;
 
 while (sel != 0)
-{ 
+{
+    
     Console.WriteLine("Seleccione una opción:");
     Console.WriteLine("1. Agregar vehículo");
     Console.WriteLine("2. Mostrar vehículos");
@@ -63,6 +64,7 @@ while (sel != 0)
     }
 
 }
+
 void cargarCamion()
 {
     camion cam = new camion();

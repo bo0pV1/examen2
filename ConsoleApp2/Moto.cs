@@ -16,6 +16,9 @@ namespace ConsoleApp2
         {
             return tarifa;
         }
-
+        public override string ToString()
+        {
+            return $"Moto";
+        }
     }
 }
